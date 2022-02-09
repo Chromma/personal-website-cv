@@ -3,9 +3,10 @@
 
 1. Header
 2. Cases
-3. Pagepiling
-4. Swiper
-5. Validate
+3. About
+4. Pagepiling
+5. Swiper
+6. Validate
 
 ------------------------------------------------*/
 
@@ -75,9 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+/* 4. About */
 
 
-/* 3. Pagepiling */
+
+/* 4. Pagepiling */
 document.addEventListener('DOMContentLoaded', function () {
     function isTablet() {
         return window.matchMedia('(max-width: 1000px)').matches
@@ -267,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-/* 4. Swiper */
+/* 5. Swiper */
 let swiper = new Swiper('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
@@ -313,7 +316,7 @@ let swiper2 = new Swiper('.swiper-container2', {
     }
 });
 
-/* 5. Validate */
+/* 6. Validate */
 document.addEventListener('DOMContentLoaded', () => {
     if (document.querySelector('.js-form')) {
         new JustValidate('.js-form', {

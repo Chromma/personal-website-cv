@@ -212,7 +212,7 @@ body {
 -------------------------------------------------------------------------------*/
 /* 2.11 Section */
 .section-home {
-  background-image: url("../img/bg/Home1.jpg");
+  background-image: url("../img/bg/home.jpg");
   background-size: cover;
   background-position: 100% 22%;
   background-repeat: no-repeat;
@@ -507,10 +507,10 @@ body {
 
 .about__img-play {
   position: absolute;
-  top: 50%;
-  left: 30%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  bottom: -2%;
+  right: -2%;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
   z-index: 2;
   cursor: pointer;
   -webkit-transition: .3s ease;
@@ -544,6 +544,21 @@ body {
     width: 1515px;
     height: 517px;
   }
+}
+
+.about__video-wrapper {
+  position: relative;
+}
+
+
+@media (max-width: 1200px) {
+  .about__video-wrapper {
+    margin-top: 30px;
+  }
+}
+
+.about__video:hover + .about__img {
+  opacity: 0.8;
 }
 /* 2.14.1 Experience */
 .row-experience{
@@ -2257,7 +2272,7 @@ body {
 }
 
 .cases__card:hover {
-  cursor: url("../img/cases/cursor.png") 62 62, pointer;
+  cursor: url("../img/cases/ver-cases.svg") 62 62, pointer;
 }
 
 .cases__card:hover img {
