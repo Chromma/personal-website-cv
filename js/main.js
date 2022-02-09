@@ -1,3 +1,4 @@
+
 'use strict';
 /*------------------------------------------------
 
@@ -77,7 +78,18 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* 4. About */
-
+$(document).ready(function(){
+    $(".about__img-play .play-img").on('click',function(){
+        $(".about__img-play .play-img").fadeOut(1);
+        $(".about__img-play .pause-img").fadeIn(1);
+        $(".hero__video-video")[0].play();
+    });
+    $(".about__img-play .pause-img").on('click',function(){
+        $(".about__img-play .pause-img").fadeOut(1);
+        $(".about__img-play .play-img").fadeIn(1);
+        $(".hero__video-video")[0].pause();
+    });
+});
 
 
 /* 4. Pagepiling */

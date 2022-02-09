@@ -505,10 +505,10 @@ body {
   opacity: 0.8;
 }
 
-.about__img-play {
+.about__img-play img {
   position: absolute;
-  bottom: -2%;
-  right: -2%;
+  bottom: 0%;
+  right: -3%;
   -webkit-transform: translateY(10%);
           transform: translateY(10%);
   z-index: 2;
@@ -522,6 +522,19 @@ body {
     width: 75px;
     height: 75px;
   }
+}
+
+.play-img {
+  z-index: 1;
+}
+
+.pause-img {
+  display: none;
+  z-index: 1;
+}
+
+.base-img {
+  z-index: 0;
 }
 
 .about__img {
@@ -560,6 +573,8 @@ body {
 .about__video:hover + .about__img {
   opacity: 0.8;
 }
+
+
 /* 2.14.1 Experience */
 .row-experience{
   padding:2rem 0;
