@@ -926,6 +926,7 @@ body {
           justify-content: space-between;
   width: 100%;
   margin-top: 10.74074vh;
+  height: 47.77778vh;
 }
 
 @media (max-height: 900px) {
