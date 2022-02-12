@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             const anchors = ['home', 'cases', 'about', 'services','experience', 'partners', 'testimonials', 'contacts']
-            const labels = ['inicio', 'obras seleccionadas', 'sobre mi', 'servicios','experiencia', 'mis clientes', 'testimonios', 'get in touch']
+            const labels = ['inicio', 'obras seleccionadas', 'sobre mi', 'servicios','experiencia', 'mis clientes', 'testimonios', 'contacto']
 
             function setLabel(index) {
                 const label = labels[index];
