@@ -587,7 +587,7 @@ body {
 }
 
 .row-experience:last-child{
-  padding-bottom:0;
+  padding-bottom:5;
 }
 
 .row-experience img{
@@ -765,6 +765,7 @@ body {
 .services__skills-desc {
   width: 75.97222%;
   margin-top: 6.48148vh;
+  padding-bottom: 3.24074vh;
   font-size: 18px;
   line-height: 140%;
   color: #F3F3F3;
