@@ -18,7 +18,7 @@ var linguJSON = {
         },
         {
             "source": "un diseñador visual que disfruta del modelado 3D, programar y aprender.",
-            "target_en": "A visual designer who enjoys 3D modeling, programming and learning."
+            "target_en": "A visual designer who enjoys 3D modeling, programming and learning. "
         },
         {
             "source": "Powered by <strong>Lingumania</strong>",
