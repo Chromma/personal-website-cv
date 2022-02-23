@@ -1,15 +1,21 @@
 var linguJSON = {
     "languages": [
         {
+            "lang_name": "Español",
+            "lang_code": "es",
+            "url_pattern": "es.kevinserrano.tk"
+        },
+        {
             "lang_name": "English",
             "lang_code": "en",
             "url_pattern": "en.kevinserrano.tk"
         },
         {
-            "lang_name": "Español",
-            "lang_code": "es",
-            "url_pattern": "es.kevinserrano.tk"
+            "lang_name": "Français",
+            "lang_code": "fr",
+            "url_pattern": "fr.kevinserrano.tk"
         }
+        
     ],
     "translated_segments": [
         {

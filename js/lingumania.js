@@ -466,25 +466,6 @@ whether standalone or as part of another javascript, are not permitted without p
                     menuHeight += 30;
                 }
 
-                var translateNowItem = d.createElement("a");
-                translateNowItem.className = "lingumania_poweredby";
-                translateNowItem.target = "_blank";
-                translateNowItem.href = "http://www.lingumania.com";
-                translateNowItem.innerHTML = "Translated Websites<br />Powered by Lingumania";
-                langMenu.appendChild(translateNowItem);
-                menuHeight += 30;
-                if (linguJSON.custom_lang_switcher_html && linguJSON.custom_lang_switcher_container_id) {
-                    translateNowItem.id = 'lingumania_custom_id';
-
-                    var frag = d.createDocumentFragment();
-                    customLangMenu.innerHTML = customLangMenuHtml;
-
-                    while (customLangMenu.firstChild) {
-                        frag.appendChild(customLangMenu.firstChild);
-                    }
-                    menuHeight = 30;
-                }
-
                 if (langMenu.addEventListener) {
                     langMenu.addEventListener("mouseover", function (event) {
                         d.getElementById('lingumania_langswitcher').style.height = menuHeight + 'px';
